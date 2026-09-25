@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background-color: rgb(68, 68, 68);
+}
+.mainphotos{
+    height:auto;
+    max-width:150px;
+    border-radius: 20px;
+    border:solid white 5px;
+}
+h3{
+    background-color: aliceblue;
+    margin: 0 200px 0 200px;
+}
+h1{
+    background-color: rgb(247, 185, 208);
+}
+p{
+    color: rgb(229, 229, 229);
+}
+.contactInfo{
+    display: flex;
+    gap: 20%;
+}
+#email,#phoneNumber{
+    flex: 1;
+}
+.sections{
+    display: flex;
+    gap: 40px;
+}
+.linkedIn,
+.about{
+    flex:1;
+}
+@media (max-width: 600px){
+    .sections{
+        flex-direction: column;
+    }
+}
+#linkLinkedIn{
+    background-color: rgb(26, 87, 172);
+    color: white;
+    font-weight: bold;
+    border-right:solid white 5px;
+}
+.offText{
+    color:rgb(225, 192, 225);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link{
+    background: transparent;
+    color:rgb(241, 238, 243);
+}
+#buttonText{
+    background-color: rgb(85, 86, 86);
+    color: aliceblue;
+    border-radius: 5px;
+}
