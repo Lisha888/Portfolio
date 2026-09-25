@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(41, 41, 41);
 }
 .mainphotos{
     height:auto;
@@ -9,11 +9,12 @@ body{
     border:solid white 5px;
 }
 h3{
-    background-color: aliceblue;
+    background-color: rgb(237, 127, 197);
     margin: 0 200px 0 200px;
+    border-radius:20lvi;
 }
 h1{
-    background-color: rgb(247, 185, 208);
+    color: rgb(247, 185, 208)
 }
 p{
     color: rgb(229, 229, 229);
