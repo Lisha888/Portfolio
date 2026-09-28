@@ -8,16 +8,25 @@ body{
     border-radius: 20px;
     border:solid white 5px;
 }
-h3{
-    background-color: rgb(237, 127, 197);
+#name{
+    background-color: rgb(247, 185, 208);
     margin: 0 200px 0 200px;
     border-radius:20lvi;
+    color: rgb(41, 41, 41)
 }
 h1{
     color: rgb(247, 185, 208)
 }
 p{
     color: rgb(229, 229, 229);
+    font-family: helvetica;
+}
+#introduction{
+    background-color: rgb(247, 185, 208);
+    color: rgb(41, 41, 41);
+    padding: 5% 0 5% 0;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 .contactInfo{
     display: flex;
@@ -43,10 +52,15 @@ p{
     background-color: rgb(26, 87, 172);
     color: white;
     font-weight: bold;
+    border: groove rgb(19, 24, 78) 5px;
     border-right:solid white 5px;
 }
+#linkLinkedIn:hover{
+    color:black;
+    text-decoration: underline;
+}
 .offText{
-    color:rgb(225, 192, 225);
+    color:rgb(81, 189, 178);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .link{
@@ -54,7 +68,16 @@ p{
     color:rgb(241, 238, 243);
 }
 #buttonText{
-    background-color: rgb(85, 86, 86);
-    color: aliceblue;
+    background-color: rgb(81, 189, 178);
+    color: rgb(242, 242, 243);
+    text-shadow: 3px 2px 0 rgba(0, 0, 0, 0.205);
     border-radius: 5px;
+    border: outset rgb(125, 188, 215) 5px;
+}
+#buttonText:hover{
+    text-decoration: underline;
+}
+.link:hover{
+    color: rgb(81, 189, 178);
+    text-decoration: underline;
 }
