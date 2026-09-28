@@ -28,10 +28,8 @@ p{
     margin-left: 0%;
     margin-right: 0%;
 }
-.contactInfo{
-    display: flex;
-    gap: 20%;
-}
+
+
 #email,#phoneNumber{
     flex: 1;
 }
