@@ -10,8 +10,8 @@ body{
 }
 #name{
     background-color: rgb(247, 185, 208);
-    margin: 0 200px 0 200px;
-    border-radius:20lvi;
+    margin: 0 10%;
+    border-radius:20dvi;
     color: rgb(41, 41, 41)
 }
 h1{
@@ -28,12 +28,13 @@ p{
     margin-left: 0%;
     margin-right: 0%;
 }
-#email,#phoneNumber{
-    flex: 1;
-}
 .sections{
     display: flex;
     gap: 40px;
+}
+#email,
+#phoneNumber{
+    flex: 1;
 }
 .linkedIn,
 .about{
