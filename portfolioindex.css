@@ -56,6 +56,22 @@ p{
     color:black;
     text-decoration: underline;
 }
+#cv{
+    padding: 5% 10% 5% 10%;
+    background-color: white;
+    color:rgb(59, 12, 12); 
+    font-weight:bold;
+    font-size:medium;
+    border: groove black 5px;
+    border-right: solid white 5px;
+}
+#cv:hover{
+text-decoration: underline;
+background-color: black;
+color: white;
+border: groove white 5px;
+border-right: solid rgb(146, 145, 145) 5px;
+}
 .offText{
     color:rgb(81, 189, 178);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -77,4 +93,17 @@ p{
 .link:hover{
     color: rgb(81, 189, 178);
     text-decoration: underline;
+}
+.sidenav{
+    display: flex;
+}
+.sidebar{
+    width: 30%;
+    height: 100vh;
+    background-color:  rgb(247, 185, 208);
+    border: solid white 5px;
+    
+}
+.page{
+    flex: 1;
 }
