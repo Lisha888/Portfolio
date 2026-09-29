@@ -4,7 +4,7 @@ body{
 }
 .mainphotos{
     height:auto;
-    max-width:150px;
+    max-width:200px;
     border-radius: 20px;
     border:solid white 5px;
 }
@@ -96,14 +96,15 @@ border-right: solid rgb(146, 145, 145) 5px;
 }
 .sidenav{
     display: flex;
+    height: 100vh;
 }
 .sidebar{
-    width: 30%;
+    width: 20%;
     height: 100vh;
     background-color:  rgb(247, 185, 208);
     border: solid white 5px;
     
 }
-.page{
+.index.Content{
     flex: 1;
 }
