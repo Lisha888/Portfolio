@@ -8,14 +8,17 @@
 <body>
     <div class="sidenav">
     <aside class="sidebar">
-      <h4>Menu:</h4> <ul> 
-      <li><a href="index.html" class="menulinks">Index</a></li>
+      <h4 class="sidebartext">Menu:</h4> <button id="closeMenu" onclick="exitMenu()">X</button><br>
+      <div class="pageLinks">
+      <li><a href="index.html" class="menulinks">Index</a></li><br>
       <li><a href="portfolioProjects.html" class="menulinks">My projects</a></li>
-    </ul>
-    </aside>
+    </div></aside>
     <div class="indexContent">
     <main class="page">
- <h1 id="name">Hello, I'm Lisha</h1><br>
+        <section class="sections">
+       <aside><button onclick="openMenu()" id="menubutton">Menu</button></aside>
+</section>
+       <h1 id="name">Hello, I'm Lisha</h1><br>
     <img class="pictures mainphotos"
     src="placeholderImg.png"/><br>
     <button id="buttonText" onclick="changePhoto()">See me?</button>
