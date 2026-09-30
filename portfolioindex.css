@@ -96,6 +96,10 @@ border-right: solid rgb(146, 145, 145) 5px;
 }
 #closeMenu{
     height: 20px;
+    width: 40px;
+    align-self: flex-end;
+    background-color: brown;
+    color:aliceblue;
 }
 .sidenav{
     display: flex;
@@ -103,11 +107,12 @@ border-right: solid rgb(146, 145, 145) 5px;
 }
 .sidebar{
     display: none;
-    text-align: left;
-    width: 10%;
+    flex-direction: column;
+    width: 5%;
     height: 100vh;
     background-color: rgb(247, 185, 208);
     border: solid white 5px;
+    border-radius: 0 10px 10px 0;
     
 }
 .indexContent{
@@ -122,4 +127,7 @@ border-right: solid rgb(146, 145, 145) 5px;
 }
 #menubutton:hover{
     border: groove rgb(146, 145, 145) 5px;
+}
+.pageLinks{
+
 }
