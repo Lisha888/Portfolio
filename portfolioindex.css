@@ -28,17 +28,9 @@ p{
     margin-left: 0%;
     margin-right: 0%;
 }
-.sections{
-    display: flex;
-    gap: 40px;
-}
 #email,
 #phoneNumber{
     flex: 1;
-}
-.linkedIn,
-.about{
-    flex:1;
 }
 @media (max-width: 600px){
     .sections{
@@ -101,19 +93,22 @@ border-right: solid rgb(146, 145, 145) 5px;
     background-color: brown;
     color:aliceblue;
 }
+#closeMenu:hover{
+    background-color: rgb(95, 24, 24);
+    color: rgb(246, 245, 245);
+}
 .sidenav{
     display: flex;
-    height: 100vh;
+    height: 40%;
 }
 .sidebar{
     display: none;
     flex-direction: column;
     width: 5%;
-    height: 100vh;
-    background-color: rgb(247, 185, 208);
-    border: solid white 5px;
+    height: 40%;
+    background-color: transparent;
+    border: solid rgb(247, 185, 208) 2px;
     border-radius: 0 10px 10px 0;
-    
 }
 .indexContent{
     flex: 1;
@@ -128,6 +123,39 @@ border-right: solid rgb(146, 145, 145) 5px;
 #menubutton:hover{
     border: groove rgb(146, 145, 145) 5px;
 }
-.pageLinks{
-
+.sidebartext{
+    color:aliceblue;
 }
+.page{
+    flex:1;
+}
+.aboutmePage{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.aboutmeHeaddings{
+    background-color: rgb(247, 185, 208);
+    margin-bottom: 20px;
+}
+.topBottom{
+    display: flex;
+}
+.top,
+.bottom{
+    flex-direction: column;
+}
+.belowMenu{
+    display: flex;
+}
+.intro,
+.cvL{
+    flex-direction: column;
+}
+.sections{
+    display: flex;
+    gap: 40px;
+}
+.linkedIn,
+.about{
+    flex: 1;
+}
+

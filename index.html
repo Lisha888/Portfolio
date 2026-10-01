@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>Lisha Watkins Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,12 +7,13 @@
     rel="stylesheet" href="portfolioindex.css">
 </head>
 <body>
-    <div class="sidenav">
+    <div class="sidenav top">
+        <section class="topBottom">
     <aside class="sidebar">
      <button id="closeMenu" onclick="exitMenu()">X</button> <h4 class="sidebartext">Menu:</h4> <br>
       <div class="pageLinks">
-      <li><a href="index.html" class="menulinks">Index</a></li><br>
-      <li><a href="portfolioProjects.html" class="menulinks">My projects</a></li>
+      <li><a href="index.html" class="link">Index</a></li><br>
+      <li><a href="portfolioProjects.html" class="link">My projects</a></li>
     </div></aside>
     <div class="indexContent">
     <main class="page">
@@ -27,25 +29,27 @@
     <p class="offText">Email:  <a href="mailto:lishaw620@gmail.com"><button class="link">lishaw620@gmail.com</button></a></p>
     </section><section id="phoneNumber">
         <p class="offText"> Phone Number: <a href="tel:+4407462092647"><button class="link">07462092647</button></a></p>
-    </section></div>
-    <p id="introduction">
+    </section></div></div></section><div class="belowMenu bottom"><section class="topBottom">
+    <div class="introandLinks"><section class="intro"><p id="introduction">
         This portfolio is currently still in the development process.<br>
-        I am a self taught, aspiring, software developer. This portfolio was created by me, using HTML, CSS and JavaScript to display my skills, projects and information about me and what motivates me to follow this career path.<br>
-    Thank you for taking a look around :)</p>
+        I am a self taught, aspiring, software developer.<br> This portfolio was created by me, using HTML, CSS and JavaScript to display my skills, projects and information about me and what motivates me to follow this career path.<br>
+    Thank you for taking a look around :)</p></section>
     <div class="sections">
-        <section class="linkedIn">
+       <section class="cvL">
+         <section class="linkedIn">
     <a href="https://www.linkedin.com/in/lisha-watkins-02502b337" target="_blank" rel="noopener noreferrer"><button id="linkLinkedIn"><h2>LinkedIn</h2></button></a>
     <p id="linkedInDescription" class="linkedIn"><strong>Check out my LinkedIn:</strong><br> 
         On my LinkedIn, I share videos documenting my journey into software development, showing my process for creating projects and debuging any issues that I ran into along the way.
          <br>I have alot of fun exploring the possibilties of software devlopment and you can see my motivation and determination in my videos.</p>
-        </section>
+         </section>
         <section class="about">
             <a href="Lisha Watkins CV 2026.pdf" target="_blank" rel="noopener noreferrer"><button id="cv">CV</button></a>
     <p><strong>View my CV:</strong><br>
     Take a look at my CV to see my work experience, skills and career goals; as well as how I plan to apply my experience to software development.</p>
-    </section></div>
+    </section>
+</section></div></section></div></div>
 <p class="offText">And/or, explore this website to see my projects, skills and acheivments.</p>
-</main></div>
+</main>
 </div>
 <script src="portfolioindex.js"></script>
 </body>
