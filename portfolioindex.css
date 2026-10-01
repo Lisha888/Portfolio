@@ -65,7 +65,7 @@ border-right: solid rgb(146, 145, 145) 5px;
 }
 .offText{
     color:rgb(81, 189, 178);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
 }
 .link{
     background: transparent;
@@ -159,4 +159,16 @@ border-right: solid rgb(146, 145, 145) 5px;
 .about{
     flex: 1;
 }
-
+.projectHeaddings{
+background-color: rgb(247, 185, 208);
+color: rgb(41, 41, 41);
+font-family: georgia;
+}
+.projectsIntro{
+    font-family: cambria;
+}
+.borderMenu{
+    border: solid rgb(247, 185, 208) 2px;
+    text-align: left;
+    font-size: 1vw;
+}
