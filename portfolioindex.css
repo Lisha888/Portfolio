@@ -23,10 +23,9 @@ p{
 }
 #introduction{
     background-color: rgb(247, 185, 208);
+    width:100%;
     color: rgb(41, 41, 41);
     padding: 5% 0 5% 0;
-    margin-left: 0%;
-    margin-right: 0%;
 }
 #email,
 #phoneNumber{
@@ -88,8 +87,9 @@ border-right: solid rgb(146, 145, 145) 5px;
 }
 #closeMenu{
     height: 20px;
-    width: 40px;
+    width: 30px;
     align-self: flex-end;
+    text-align: center;
     background-color: brown;
     color:aliceblue;
 }
@@ -99,15 +99,13 @@ border-right: solid rgb(146, 145, 145) 5px;
 }
 .sidenav{
     display: flex;
-    height: 40%;
 }
 .sidebar{
     display: none;
     flex-direction: column;
     width: 5%;
-    height: 40%;
     background-color: transparent;
-    border: solid rgb(247, 185, 208) 2px;
+    border:  rgb(247, 185, 208) 2px;
     border-radius: 0 10px 10px 0;
 }
 .indexContent{
@@ -146,9 +144,12 @@ border-right: solid rgb(146, 145, 145) 5px;
 .belowMenu{
     display: flex;
 }
-.intro,
-.cvL{
+.intro{
     flex-direction: column;
+}
+.cvL{
+    display: flex;
+    flex-direction: row;
 }
 .sections{
     display: flex;
